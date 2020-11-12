@@ -1,3 +1,4 @@
+<?php
 
 class GoogleTranslate
 {
@@ -54,5 +55,6 @@ class GoogleTranslate
     }
 }
 
-GoogleTranslate::translate('fa', 'en',' سلام');
-GoogleTranslate::translate('en', 'fa',' hi');
+echo GoogleTranslate::translate('fa', 'en',' سلام');
+echo GoogleTranslate::translate('en', 'fa',' hi');
+?>
